@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0px;
+
+}
+
+.container{
+    /* max-width: 1320px; */
+    background-color: #222226;
+    display: flex;
+    justify-content: center;
+    /* margin: auto; */
+   padding: 30px;
+
+}
+.card{
+
+    width: 350px;
+    height: 350px;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+margin-top: 30px;
+padding: 10px;
+
+}
+
+.title{
+ 
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: #ffffff;
+    /* margin: 10px; */
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.circle{
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    background-color: #1d2dfd;
+    margin: 20px auto;
+border-radius: 50%;
+
+}
+.cold
+{
+    background-color: #1d2dfd
+}
+
+.hot{
+    background-color: #fd331d;
+}
+
+
+.temperature-value{
+    text-align: center;
+    line-height: 55px;
+    color: #ffffff;
+    font-size: 25px;
+}
+.temperature-value>sup{
+    font-size: 18px;
+    /* margin-left: 5px; */
+}
+
+.control-buttons{
+    display: flex;
+width: 100%;
+justify-content: space-around;
+align-items: center;
+margin-top: 20px;
+
+}
+.decrement,.increment{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 3px 20px;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
